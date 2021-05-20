@@ -8,30 +8,25 @@ using UnityEngine.EventSystems;
 public class OrganList : MonoBehaviour
 {
 
-    public Image brainIcon;
+    /*public Image brainIcon;
     public Image heartIcon;
     public Image bladderIcon;
     public Image lungIcon;
-    public Image stomachIcon;
+    public Image stomachIcon;*/
 
-    /*public UnityEvent findOrgan;
+    //public GameObject organIcon;
 
-    public void OnOrganFound()
+    //public UnityEvent buttonPressed;
+
+     
+
+    public void ChangeButtonColor(Image organIcon)
     {
-        findOrgan.Invoke();
-    }
-    */
-
-    public void ChangeButtonColor()
-    {
-
-        //GetComponent<Image>().color = Color.white;
-
-
-
-
-    }
-    public void OnBrainFound()
+        
+            organIcon.color = Color.white;
+    }  
+    
+    /*public void OnBrainFound()
     {
         brainIcon.color = Color.white;
     }
@@ -54,5 +49,6 @@ public class OrganList : MonoBehaviour
     public void OnStomachFound()
     {
         stomachIcon.color = Color.white;
-    }
+    }*/
+
 }
